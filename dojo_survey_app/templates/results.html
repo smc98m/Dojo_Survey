@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Form entry results</h1>
+    <p>Name: {{request.session.name}}</p>
+    <p>Location: {{request.session.location}}</p>
+    <p>Language: {{request.session.language}}</p>
+    <P>Comments: {{request.session.comments}}</P>
+    <a href="/clear_session">Clear the session</a>
+</body>
+</html>
